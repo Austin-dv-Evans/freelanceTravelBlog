@@ -31,7 +31,7 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,8 @@ const NavLinkMain = styled(Link)`
   color: #ffffff;
   display: flex;
   flex-box: flex-start;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
   font-size: 30px;
   // align-items: center;
   text-decoration: none;
@@ -72,13 +73,14 @@ const Bars = styled(GiCrystalBars)`
   
 
   @media screen and (max-width: 768px){
-    display: block;
-    color: #5500ff;
-    postion: absolute;
-    top: 0;
+    display: inline-flex;
+    color: #000000;
+    position: relative;
+    top: -20px;
+    bottom: 100px;
     height: 50px;
     width: 50px;
-    right: 0;
+    right: -20px;
     transform: translate(-100%, 75%);
     font-size: 1.8rem
     cursor: pointer

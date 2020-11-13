@@ -35,7 +35,6 @@ const Trips = ({heading}) => {
                 <ProductCard key={index}>
                     <ProductImg 
                         alt={item.node.alt}
-                        src={item.node.img.childImageSharp.fluid.src}
                         fluid={item.node.img.childImageSharp.fluid} />
                     <ProductInfo>
                         <TextWrap>
@@ -80,7 +79,7 @@ const ProductsContainer = styled.div`
 const ProductsHeading = styled.div`
     font-size: clamp(1.2rem, 5vw, 3rem);
     text-align: center;
-    margin-bottom: 5rem;
+    margin: 5rem;
     color: #000
 `
 
