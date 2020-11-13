@@ -1,0 +1,38 @@
+[
+    {
+        "img" : "../assets/images/NickMatchu.jpg",
+        "alt" : "Nicholas at Matchu Pitchu",
+        "name" : "Nicholas at Matchu Pitchu",
+        "button" : "View Destination"
+    },
+    {
+        "img" : "../assets/images/NickAmazedGorge.jpg",
+        "alt" : "Nicholas at The Great Gorge",
+        "name" : "Nicholas at The Great Gorge",
+        "button" : "View Destination"
+    },
+    {
+        "img" : "../assets/images/NickMountainBlues.jpg",
+        "alt" : "Nicholas on top a mountain!",
+        "name" : "Nicholas on top a mountain!",
+        "button" : "View Destination"
+    },
+    {
+        "img" : "../assets/images/NickToungeSnow.jpg",
+        "alt" : "Nicholas at Mount Pow Pow",
+        "name" : "Nicholas at Mount Pow Pow",
+        "button" : "View Destination"
+    },
+    {
+        "img" : "../assets/images/NickTricky.jpg",
+        "alt" : "Nicholas Getting Tricky",
+        "name" : "Nicholas at Mount SSX Tricky",
+        "button" : "View Destination"
+    },
+    {
+        "img" : "../assets/images/NickCoverPhoto.jpg",
+        "alt" : "Nicholas' Sunset Captured",
+        "name" : "Nicholas' Sunset Captured",
+        "button" : "View Destination"
+    }
+]
