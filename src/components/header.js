@@ -72,7 +72,7 @@ const Bars = styled(GiCrystalBars)`
   width: 50px;
   
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 795px){
     display: inline-flex;
     color: #000000;
     position: relative;
@@ -92,7 +92,7 @@ const NavMenu = styled.div`
   align-items: center;
   margin-right: --48px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 795px) {
     display: none;
   }
 `
@@ -103,7 +103,7 @@ const NavBtn = styled.div`
   margin-right: 24px;
   // color: #5500cc;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 795px) {
     display: none
   }
 `
