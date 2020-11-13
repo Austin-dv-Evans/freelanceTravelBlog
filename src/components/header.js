@@ -19,7 +19,7 @@ const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button round="true" to="/trips">
+        <Button primary="true" round="true" to="/trips">
           Recent Trips
         </Button>
       </NavBtn>
@@ -99,7 +99,7 @@ const NavBtn = styled.div`
   display: flex;
   align-items: center;
   margin-right: 24px;
-  color: #5500cc;
+  // color: #5500cc;
 
   @media screen and (max-width: 768px) {
     display: none
